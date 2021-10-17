@@ -23,7 +23,7 @@ import {
 } from 'ajax';
 
 (() => {
-  const url = '';
+  const url = 'https://git.heroku.com/rxjs-app.git';
   const messagesElem = document.querySelector('.messages');
 
   interval(3000).pipe(map(() => from(ajax.getJSON(`${utl}/messages/unread`).pipe(catchError((error) => of (error))))))
