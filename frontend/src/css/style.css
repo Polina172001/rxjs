@@ -1,0 +1,32 @@
+body {
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.messages {
+  list-style: none;
+  padding: 0;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.hidden {
+  display: none;
+}
